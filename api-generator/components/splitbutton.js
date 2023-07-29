@@ -12,16 +12,16 @@ const SplitButtonProps = [
         description: 'Name of the icon.'
     },
     {
-        name: 'loadingIcon',
-        type: 'any',
-        default: 'null',
-        description: 'Name of the loading icon or JSX.Element for loading icon.'
-    },
-    {
         name: 'loading',
         type: 'boolean',
         default: 'false',
-        description: 'Display loading icon of the button'
+        description: 'Whether the button is in loading state.'
+    },
+    {
+        name: 'loadingIcon',
+        type: 'string',
+        default: 'pi pi-spinner pi-spin',
+        description: 'Icon to display in loading state.'
     },
     {
         name: 'model',
