@@ -87,6 +87,15 @@ export interface SplitButtonProps {
      */
     icon?: string | undefined;
     /**
+     * Whether the button is in loading state.
+     * @defaultValue false
+     */
+    loading?: boolean | undefined;
+    /**
+     * Icon to display in loading state.
+     */
+    loadingIcon?: string | undefined;
+    /**
      * MenuModel instance to define the overlay items.
      */
     model?: MenuItem[] | undefined;

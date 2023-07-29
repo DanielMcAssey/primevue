@@ -67,6 +67,14 @@ export default {
             type: String,
             default: null
         },
+        loading: {
+            type: Boolean,
+            default: false
+        },
+        loadingIcon: {
+            type: String,
+            default: 'pi pi-spinner pi-spin'
+        },
         model: {
             type: Array,
             default: null
